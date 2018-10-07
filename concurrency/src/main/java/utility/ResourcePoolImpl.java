@@ -5,9 +5,7 @@ import java.util.concurrent.TimeUnit;
 class ResourcePoolImpl<R> implements ResourcePool<R> {
 
     @Override
-    public void open() {
-
-    }
+    public void open() {}
 
     @Override
     public boolean isOpen() {
@@ -15,9 +13,7 @@ class ResourcePoolImpl<R> implements ResourcePool<R> {
     }
 
     @Override
-    public void close() {
-
-    }
+    public void close() {}
 
     @Override
     public R acquire() {
@@ -30,9 +26,7 @@ class ResourcePoolImpl<R> implements ResourcePool<R> {
     }
 
     @Override
-    public void release(R resource) {
-
-    }
+    public void release(R resource) {}
 
     @Override
     public boolean add(R resource) {
@@ -50,7 +44,5 @@ class ResourcePoolImpl<R> implements ResourcePool<R> {
     }
 
     @Override
-    public void closeNow() {
-
-    }
+    public void closeNow() {}
 }
